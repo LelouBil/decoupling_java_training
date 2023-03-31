@@ -1,3 +1,5 @@
+package fr.lernejo.guessgame;
+
 import fr.lernejo.guessgame.HumanPlayer;
 import fr.lernejo.guessgame.Simulation;
 
