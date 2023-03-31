@@ -22,9 +22,9 @@ public class HumanPlayer implements Player {
     @Override
     public void respond(boolean lowerOrGreater) {
         if(lowerOrGreater   ){
-            System.out.println("the goal is greater");
+            logger.log("the goal is greater");
         }else{
-            System.out.println("the goal is lower");
+            logger.log("the goal is lower");
         }
     }
 }
