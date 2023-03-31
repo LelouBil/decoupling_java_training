@@ -25,6 +25,7 @@ public class Simulation {
         logger.log("Player guessed " + guess);
         if(guess == numberToGuess){
             logger.log("Right number");
+            System.out.println("Bravo tu a gagné");
             return true;
         }else{
             boolean lowerOrGreater = numberToGuess > guess;
